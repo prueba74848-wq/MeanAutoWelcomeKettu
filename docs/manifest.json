@@ -1,0 +1,15 @@
+{
+    "name": "autowelcommeansticker",
+    "description": "Replies to new member join messages with one chosen sticker.",
+    "authors": [
+        {
+            "name": "you",
+            "id": "0"
+        }
+    ],
+    "main": "index.js",
+    "vendetta": {
+        "icon": "ic_message_edit"
+    },
+    "hash": "2f38f0f7448e20175e44a40daca170f498b817acfe24073a32e345edecfef7c7"
+}
