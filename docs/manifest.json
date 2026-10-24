@@ -1,7 +1,7 @@
 {
-  "name": "AutoWelcome",
+  "name": "Auto Welcome Custom",
   "description": "Replies to server join messages with a sticker. Choose which servers and which sticker ID in the plugin settings.",
   "authors": [{ "name": "You" }],
-  "main": "AutoWelcome.js",
-  "hash": "4f55468c83a242e9b88e524e33adf4805ca95c3bc52fa9643bdaf55156439f22"
+  "main": "index.js",
+  "hash": "49d2eb69754c68a9297a7df9ad3eee7c7da0c8d9e009cef21f07653bf72123bb"
 }

@@ -76,11 +76,11 @@
 
   // ---------- Helpers ----------
   function toast(text) {
-    logger.log("[AutoWelcome] " + text);
+    logger.log("[AutoWelcome Custom] " + text);
     try {
-      vd.ui.toasts.showToast("[AutoWelcome] " + text, vd.ui.assets.getAssetIDByName("Small"));
+      vd.ui.toasts.showToast("[AutoWelcome Custom] " + text, vd.ui.assets.getAssetIDByName("Small"));
     } catch (e) {
-      logger.log("[AutoWelcome] toast failed: " + String(e));
+      logger.log("[AutoWelcome Custom] toast failed: " + String(e));
     }
   }
 
@@ -315,7 +315,7 @@
           try {
             handle(payload);
           } catch (e) {
-            logger.error("[AutoWelcome] handler error", e);
+            logger.error("[AutoWelcome Custom] handler error", e);
           }
           return null;
         };
@@ -325,7 +325,7 @@
           try {
             handle(payload);
           } catch (e) {
-            logger.error("[AutoWelcome] handler error", e);
+            logger.error("[AutoWelcome Custom] handler error", e);
           }
         };
         FluxDispatcher.subscribe("MESSAGE_CREATE", subscribedFn);
