@@ -1,15 +1,7 @@
 {
-    "name": "autowelcommeansticker",
-    "description": "Replies to new member join messages with one chosen sticker.",
-    "authors": [
-        {
-            "name": "you",
-            "id": "0"
-        }
-    ],
-    "main": "index.js",
-    "vendetta": {
-        "icon": "ic_message_edit"
-    },
-    "hash": "2f38f0f7448e20175e44a40daca170f498b817acfe24073a32e345edecfef7c7"
+  "name": "AutoWelcome",
+  "description": "Replies to server join messages with a sticker. Choose which servers and which sticker ID in the plugin settings.",
+  "authors": [{ "name": "You" }],
+  "main": "AutoWelcome.js",
+  "hash": "4f55468c83a242e9b88e524e33adf4805ca95c3bc52fa9643bdaf55156439f22"
 }
